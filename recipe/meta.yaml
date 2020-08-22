@@ -24,20 +24,16 @@ requirements:
   run:
     - python
     - ansiwrap
-    - backports.tempfile
+    - black
     - click
     - entrypoints
-    - future
-    - ipython >=5.0
     - jupyter_client
-    - nbconvert >=5.5
+    - nbclient >=0.2.0
     - nbformat
-    - pandas
     - pyyaml
     - requests
-    - six
     - tenacity
-    - tqdm >=4.29.1
+    - tqdm >=4.32.2
 
 test:
   imports:
