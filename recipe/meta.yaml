@@ -1,6 +1,6 @@
 {% set name = "papermill" %}
-{% set version = "2.2.2" %}
-{% set sha256 = "1c452b1c5a9ab52b94c99d8b7705ae7173f6aa88a3d28a5d30cffba48a46f5b6" %}
+{% set version = "2.3.3" %}
+{% set sha256 = "349aecd526c15c39f73a08df836467e2fead877c474d82c7df349f27ad272525" %}
 
 package:
   name: {{ name|lower }}
